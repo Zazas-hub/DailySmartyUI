@@ -1,0 +1,178 @@
+.post-topic {
+  margin: 0 15px;
+}
+
+html {
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.recent-posts,
+.logo {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+}
+
+.recent-posts img,
+.logo img {
+  width: 105px;
+  height: 105px;
+}
+
+.app-wrapper {
+  display: grid;
+  justify-items: center;
+}
+
+.home {
+  display: grid;
+  align-content: space-around;
+  height: 100vh;
+  width: 66vw;
+}
+
+.recent_posts_topics {
+  color: #666666;
+}
+
+.search-bar {
+  display: grid;
+  justify-items: stretch;
+}
+
+.search-bar input {
+  padding-left: 35px;
+  color: #666666;
+  box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.1);
+  border: 0px solid transparent;
+  height: 118px;
+  font-size: 40px;
+  border-radius: 5px;
+  transition: all 0.2s ease;
+}
+
+.search-bar input::-moz-placeholder {
+  color: #b3b3b3;
+  font-family: "Font Awesome 5 Free", "Lato", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.search-bar input:-ms-input-placeholder {
+  color: #b3b3b3;
+  font-family: "Font Awesome 5 Free", "Lato", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.search-bar input::placeholder {
+  color: #b3b3b3;
+  font-family: "Font Awesome 5 Free", "Lato", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.search-bar input:focus {
+  outline: none;
+  box-shadow: 2px 3px 20px 1px rgba(0, 0, 0, 0.3);
+}
+
+.search-bar p {
+  text-align: right;
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+.search-bar-results input {
+  font-size: 22px;
+  height: 36px;
+}
+
+.recent-posts {
+  display: grid;
+  align-content: center;
+}
+
+.recent-posts .recent-posts-wrapper {
+  display: grid;
+  grid-row-gap: 21px;
+  width: 100%;
+}
+
+.recent-posts .recent-posts-wrapper .recent-posts-heading {
+  color: #0079ff;
+}
+
+.recent-posts .recent-posts-wrapper .recent-posts-posts {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.results {
+  height: 100vh;
+  width: 66vw;
+  display: grid;
+  margin-top: 52px;
+  grid-row-gap: 44px;
+}
+
+.results-posts .results-posts-wrapper .results-posts-posts {
+  display: grid;
+  grid-row-gap: 21px;
+  justify-content: stretch;
+}
+
+.result-post {
+  display: grid;
+  align-content: space-around;
+  grid-row-gap: 22px;
+}
+
+.result-post .result-post-topics > * {
+  color: #0079ff;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: normal;
+}
+
+.result-post .result-post-title a {
+  color: #666666;
+  font-size: 18px;
+}
+
+.result-post .result-post-links {
+  display: flex;
+}
+
+.post-link {
+  min-height: 70px;
+  display: flex;
+  flex-basis: 205px;
+  margin-right: 37px;
+}
+
+.post-link .post-link-box {
+  min-width: 70px;
+  background-color: #666666;
+  margin-right: 16px;
+}
+
+.post-link .post-link-link {
+  color: #666666;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.no-content {
+  color: gray;
+}
+
+/*# sourceMappingURL=app-189c222e2c679509668f.map*/
