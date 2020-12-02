@@ -27,7 +27,12 @@
   }
 }
 .search-bar-home {
-  
+  input {
+    @media screen and (max-width: 600px) {
+      font-size: 23px;
+      height: 59px;
+    }
+  }
 }
 .search-bar-results {
   input {
