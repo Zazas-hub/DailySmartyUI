@@ -1,0 +1,10 @@
+.app-wrapper {
+  display: grid;
+  justify-items: center;
+}
+.home {
+  @include default-page-layout();
+}
+.recent_posts_topics {
+  color: $grey-color;
+}
