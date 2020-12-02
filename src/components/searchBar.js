@@ -7,9 +7,9 @@ class SearchBar extends Component {
     super();
     this.handleFormSubmit = this.handleFormSubmit.bind(this);
   }
-  handleFormSubmit = function () {
-    this.props.history.push("/results");
-  };
+  handleFormSubmit(query) {
+    this.props.onSubmit(query);
+  }
   renderInput(field) {
     return (
       <input type="text" placeholder="Search DailySmarty" {...field.input} />
